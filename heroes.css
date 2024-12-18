@@ -1,0 +1,113 @@
+/* General Reset */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFBE6; /* Soft beige */
+    color: #347928; /* Dark green */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #347928;
+    color: #FFFBE6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #FFFBE6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FCCD2A; /* Yellow */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 15px;
+    background-color: #C0EBA6; /* Light green */
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+/* Heroes Section */
+.heroes-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.hero-card {
+    background-color: #FFFFFF;; /* Soft beige */
+    border: 1px solid #C0EBA6; /* Light green */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.hero-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.hero-card h3 {
+    font-size: 1.5rem;
+    color: #347928; /* Dark green */
+    margin-bottom: 10px;
+}
+
+.hero-card p {
+    margin-bottom: 10px;
+}
+
+.hero-card strong {
+    color: #FCCD2A; /* Yellow */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #347928; /* Dark green */
+    color: #FFFBE6; /* Soft beige */
+    padding: 15px;
+}

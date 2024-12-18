@@ -1,0 +1,142 @@
+/* General Reset */
+body, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFBE6; /* Soft beige */
+    color: #347928; /* Dark green */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #347928; /* Dark green */
+    color: #FFFBE6; /* Soft beige */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #FFFBE6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FCCD2A; /* Yellow */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 15px;
+    background-color: #C0EBA6; /* Light green */
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Fact Cards Layout */
+.facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.fact-card {
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #C0EBA6;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fact-content h3 {
+    font-size: 1.4rem;
+    color: #347928;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.fact-image img {
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 15px; /* Add space below the image */
+}
+
+.fact-content p {
+    font-size: 1rem;
+    color: #5A5A5A;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Quiz Section */
+.quiz-section {
+    background-color: #C0EBA6;
+    padding: 20px;
+    text-align: center;
+}
+
+.quiz-link {
+    text-decoration: none;
+    background-color: #FCCD2A; /* Yellow */
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #347928;
+    border-radius: 5px;
+}
+
+.quiz-link:hover {
+    background-color: #347928;
+    color: #FFFBE6;
+}
+
+/* Footer */
+footer {
+    background-color: #347928;
+    color: #FFFBE6;
+    text-align: center;
+    padding: 10px 0;
+}

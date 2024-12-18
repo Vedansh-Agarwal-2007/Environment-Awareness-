@@ -1,0 +1,124 @@
+/* General Reset */
+body, h1, h2, h3, p, select {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FFFBE6; /* Soft beige */
+    color: #347928; /* Dark green */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #347928; /* Dark green */
+    color: #FFFBE6; /* Soft beige */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #FFFBE6;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FCCD2A; /* Yellow */
+}
+
+/* Quiz Section */
+.quiz-section {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.quiz-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* MCQ Section */
+.mcq-section {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.mcq-section ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.mcq-section select {
+    padding: 5px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+/* Fill in the Blanks Section */
+.fill-in-the-blanks-section {
+    text-align: left;
+    padding: 20px 15px;
+}
+
+.fill-in-the-blanks-section ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.fill-in-the-blanks-section select {
+    padding: 5px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+}
+
+.submit-btn button {
+    background-color: #347928;
+    color: #FFFBE6;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 200px;
+}
+
+.submit-btn button:hover {
+    background-color: #FCCD2A; /* Yellow */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #347928; /* Dark green */
+    color: #FFFBE6; /* Soft beige */
+    padding: 15px;
+}
